@@ -73,8 +73,8 @@ public class Romain {
 		Equipement casque2 = Equipement.CASQUE;
 		Equipement bouclier = Equipement.BOUCLIER;
 		romain.sEquiper(casque1);
-	    romain.sEquiper(casque2);
-	    romain.sEquiper(bouclier);
-	    romain.sEquiper(casque1);
+	    	romain.sEquiper(casque2);
+	    	romain.sEquiper(bouclier);
+	    	romain.sEquiper(casque1);
 	}
 }
