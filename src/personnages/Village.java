@@ -50,7 +50,7 @@ public class Village {
     public static void main(String[] args) {
         Village village = new Village("Village des Irréductibles", 30);
 
-        Chef chefAbraracourcix = new Chef("Chef Abraracourcix",6);
+        Chef chefAbraracourcix = new Chef("Chef Abraracourcix",6, village);
         village.setChef(chefAbraracourcix);
         Gaulois asterix = new Gaulois("Astérix", 8);
         village.ajouterHabitant(asterix);
